@@ -1,0 +1,9 @@
+sfml-main-d.lib
+sfml-graphics-d.lib
+sfml-window-d.lib
+sfml-system-d.lib
+sfml-network-d.lib
+sfml-audio-d.lib
+thor-d.lib
+tgui-d.lib
+2D Game Library-d.lib

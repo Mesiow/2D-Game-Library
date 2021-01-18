@@ -1,0 +1,9 @@
+sfml-main.lib
+sfml-graphics.lib
+sfml-window.lib
+sfml-system.lib
+sfml-network.lib
+sfml-audio.lib
+thor.lib
+tgui.lib
+2D Game Library.lib
