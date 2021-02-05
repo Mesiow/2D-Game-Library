@@ -7,6 +7,7 @@ public:
 
 protected:
 	virtual void receivePackets() = 0;
+	virtual void sendPacket(sf::Packet& packet) = 0;
 
 protected:
 	sf::UdpSocket socket;

@@ -5,8 +5,8 @@ class Game;
 
 class State {
 public:
-	State(Game *app)
-		:_app(app){}
+	State(Game *game)
+		:_game(game){}
 	virtual ~State(){}
 
 	virtual void handleEvents(sf::Event& ev, sf::RenderWindow &window) = 0;
@@ -15,5 +15,5 @@ public:
 	virtual void render(sf::RenderWindow& window) = 0;
 
 protected:
-	Game* _app;
+	Game* _game;
 };

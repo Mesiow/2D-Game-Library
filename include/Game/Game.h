@@ -1,6 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include "States/State.h"
+#include "State/State.h"
 #include <memory>
 #include <string>
 #include <stack>
